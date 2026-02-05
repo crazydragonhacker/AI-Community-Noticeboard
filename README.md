@@ -1,174 +1,143 @@
-# AI-Community-Noticeboard
-AI-powered system that delivers local announcements, jobs, health alerts, and civic information via WhatsApp, SMS, and voice.
-🏘️ AI Community Noticeboard
+# 🏘️ AI Community Noticeboard
 
-An AI-powered civic information system that improves access to local announcements, jobs, health camps, and public services using WhatsApp, SMS, and voice-based delivery—designed for inclusion, accessibility, and real-world community impact.
+## 🚀 Hackathon Project
 
-📌 Problem Statement
+AI Community Noticeboard is an **AI-powered civic information platform** that helps communities access important public announcements such as jobs, health camps, welfare schemes, and emergency alerts through **WhatsApp, SMS, and voice-based communication**.
 
-Critical public information such as:
+---
 
-Government job openings
+## 📌 Problem
 
-Health camps and vaccination drives
+Public information like job opportunities, government schemes, and health programs often fails to reach the people who need it most because:
 
-Welfare schemes and deadlines
+- Information is scattered across multiple websites
+- Notices are written in complex or English-only language
+- Many communities have low digital literacy
+- Rural and low-income populations face connectivity challenges
 
-Local civic announcements
+As a result, citizens miss opportunities that could improve their livelihood and wellbeing.
 
-is often:
+---
 
-Scattered across multiple websites
+## 💡 Solution
 
-Written in complex language
+AI Community Noticeboard acts as a **single intelligent bridge** between public systems and citizens.
 
-Available only online and in English
+The system:
+- Collects announcements from verified public sources
+- Uses AI to simplify and translate information
+- Sends alerts via low-bandwidth and accessible platforms
+- Supports voice-first interaction for inclusivity
 
-Inaccessible to low-literacy or low-bandwidth users
+---
 
-As a result, many people miss opportunities that already exist.
+## 🎯 Key Features
 
-💡 Solution
+### 🧠 AI Processing
+- Announcement classification
+- Plain-language summarization
+- Local language translation
+- Priority-based alert ranking
 
-AI Community Noticeboard acts as a single, intelligent information bridge between public systems and communities.
+### 📲 Multi-Channel Delivery
+- WhatsApp notifications
+- SMS alerts
+- Voice call announcements
 
-It:
+### 🧑‍💼 Admin Dashboard
+- Verify and edit announcements
+- Broadcast emergency alerts
+- Manage data sources
 
-Collects announcements from trusted public sources
+### 🗣️ Accessibility Focus
+- Works for low-literacy users
+- Supports regional languages
+- Voice-first alert system
 
-Uses AI to simplify and translate information
+---
 
-Delivers alerts via WhatsApp, SMS, and voice calls
+## 👥 Target Users
 
-Works even on low-end phones and poor internet
+- Rural communities
+- Urban low-income populations
+- Migrant and informal workers
+- Students and job seekers
+- Elderly citizens
 
-🎯 Key Features
+---
 
-📢 Automated Announcement Collection
-From government portals, NGOs, hospitals, and municipalities
+## 🏗️ System Architecture
 
-🧠 AI-Powered Processing
+### 1. Data Collection
+Government portals, NGOs, hospitals, and municipalities
 
-Classification (Jobs, Health, Education, Welfare)
+### 2. AI Processing Engine
+- Classification
+- Summarization
+- Translation
+- Priority scoring
 
-Plain-language summarization
+### 3. Admin Review Layer
+Human verification for accuracy and trust
 
-Local-language translation
+### 4. Message Delivery
+WhatsApp, SMS, and Voice/IVR alerts
 
-Priority ranking
+---
 
-📲 Multi-Channel Delivery
+## 🧰 Tech Stack
 
-WhatsApp messages
+### Backend
+- Python
+- FastAPI
 
-SMS alerts
+### AI & NLP
+- LLM-based summarization and classification
+- spaCy for information extraction
+- Text-to-Speech for voice alerts
 
-Voice calls for emergencies
+### Database
+- PostgreSQL
 
-🗣️ Voice-First & Low-Bandwidth Support
-Designed for elderly users and low-literacy communities
+### Messaging Integration
+- WhatsApp Business API
+- SMS Gateway
+- Voice/IVR (Twilio / Exotel)
 
-🧑‍💼 Admin Dashboard
+### Frontend
+- React / Next.js Admin Dashboard
 
-Review and approve announcements
+### Infrastructure
+- Docker
+- Cloud Deployment
 
-Edit summaries
+---
 
-Broadcast emergency alerts
+## 💰 Estimated Cost (Pilot)
 
-📊 Feedback & Analytics
-Measure usefulness and engagement
+| Component          | Monthly Cost          |
+|--------------------|-----------------------|
+| Infrastructure     | ₹2,000 – ₹4,000       |
+| AI Processing      | ₹3,000 – ₹5,000       |
+| Messaging Services | ₹3,000 – ₹5,000       |
+| **Total**          | **₹12,000 – ₹15,000** |
 
-👥 Target Users
+---
 
-Rural communities
+## 🌍 Social Impact
 
-Urban low-income neighborhoods
+- Improves access to jobs and welfare programs
+- Reduces information inequality
+- Strengthens public service reach
+- Supports digital inclusion
 
-Migrant and informal workers
+Aligned with:
+- SDG 9 – Industry & Infrastructure
+- SDG 10 – Reduced Inequalities
+- SDG 16 – Strong Institutions
 
-Elderly citizens
+---
 
-Students and job seekers
-
-🏗️ System Architecture (High Level)
-
-Data Sources
-Government portals, NGOs, hospitals
-
-Backend & AI Engine
-
-Data ingestion & scraping
-
-AI classification, summarization, translation
-
-Priority scoring
-
-Admin Review Layer
-Human-in-the-loop verification
-
-Message Delivery Engine
-WhatsApp / SMS / Voice
-
-Community Users
-Receive alerts and request information
-
-🧰 Tech Stack
-Backend
-
-Python
-
-FastAPI
-
-AI / NLP
-
-LLMs for summarization & classification
-
-spaCy / rule-based extraction
-
-Text-to-Speech for voice alerts
-
-Database
-
-PostgreSQL
-
-Messaging
-
-WhatsApp Business API
-
-SMS Gateway
-
-Voice/IVR (Twilio / Exotel)
-
-Frontend
-
-Admin Dashboard (React / Next.js)
-
-Infrastructure
-
-Docker
-
-Cloud VM (AWS / GCP / Azure)
-
-💰 Estimated Cost
-
-Hackathon / Demo: ₹1,500 – ₹3,000 / month
-
-Pilot (1,000 users): ₹12,000 – ₹15,000 / month
-
-Scalable to 10,000+ users with linear cost growth
-
-Designed to be affordable for NGOs and local governments.🌍 Social Impact
-
-Reduces information inequality
-
-Increases participation in welfare programs
-
-Improves access to jobs and health services
-
-Strengthens trust in public systems
-
-Aligned with SDG 9 (Infrastructure), SDG 10 (Reduced Inequality), and SDG 16 (Strong Institutions).
 
 🔮 Future Enhancements
 
